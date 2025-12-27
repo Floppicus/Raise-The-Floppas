@@ -6,6 +6,17 @@ labels: bug
 assignees: Floppicus
 
 ---
+- type: checkboxes
+  id: cat-preferences
+  attributes:
+    label: What kinds of cats do you like?
+    description: You may select more than one.
+    options:
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
+      - label: **Black cat**
+
+---
 
 **Describe the bug**
 A clear and concise description of what the bug is.
